@@ -144,11 +144,11 @@ transform: translate(-50%,-50%);
 ---------------------*/
 
 @font-face{font-family:'icon';
-src:url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.eot');
-src:url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.eot#iefix') format('embedded-opentype'),
-url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.woff') format('woff'),
-url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.ttf') format('truetype'),
-url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.svg#icon') format('svg');
+src:url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.eot');
+src:url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.eot#iefix') format('embedded-opentype'),
+url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.woff') format('woff'),
+url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.ttf') format('truetype'),
+url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/functions/theme/fonts/icon.svg#icon') format('svg');
 font-weight:normal;font-style:normal;
 }
 [class^="icon-"], [class*=" icon-"],
@@ -2295,7 +2295,7 @@ position: absolute; top:50%; margin-bottom:auto; margin-top:auto;
 }
 .ux-loading{
 	width:62px; height:62px; position: absolute; left:50%; top:50%; right:auto; bottom:auto; margin-top:-31px; margin-left:-31px; z-index:999; 
-	background:#fff url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/img/isotope-loading.gif) no-repeat 50% 50%;border-radius:31px;
+	background:#fff url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526057904-knitschmann/wp-content/themes/aside/img/isotope-loading.gif) no-repeat 50% 50%;border-radius:31px;
 }
 .csstransforms .ux-loading,
 .no-csstransforms .ux-loading-transform {

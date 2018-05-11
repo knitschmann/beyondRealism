@@ -7,8 +7,8 @@
 	>
 <channel>
 	<title>Comments on: Vibes</title>
-	<atom:link href="http://knitschmann.github.io/beyondRealism/vibes-2/feed/" rel="self" type="application/rss+xml" />
-	<link>http://knitschmann.github.io/beyondRealism/vibes-2/</link>
+	<atom:link href="https://knitschmann.github.io/beyondRealism/vibes-2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://knitschmann.github.io/beyondRealism/vibes-2/</link>
 	<description></description>
 	<lastBuildDate></lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
@@ -19,4 +19,4 @@
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: beyondrealism.net @ 2018-05-11 21:20:35 by W3 Total Cache -->
+ Served from: beyondrealism.net @ 2018-05-11 21:39:11 by W3 Total Cache -->

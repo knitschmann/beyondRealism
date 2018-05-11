@@ -19,7 +19,7 @@
 .ux-theme-option-submit{border:1px solid #eee;border-top:none;margin-left:200px;padding:10px 20px;}
 
 .ux-theme-switch-color{position:relative;}
-.ux-theme-remove-color{display:block;position:absolute;right:15px;top:0px;width:34px;height:34px;background:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/icon/remove.png) no-repeat center center;cursor:pointer;}
+.ux-theme-remove-color{display:block;position:absolute;right:15px;top:0px;width:34px;height:34px;background:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/icon/remove.png) no-repeat center center;cursor:pointer;}
 .ux-theme-no-col.col-sm-2,
 .ux-theme-no-col.col-sm-3,
 .ux-theme-no-col.col-sm-4,
@@ -82,22 +82,22 @@
 .ux-theme-image-select{margin-bottom:15px;}
 .ux-theme-image-select .nav > li{position:relative;margin-right:15px;}
 .ux-theme-image-select .nav > li > a{border-radius:0px;display:block;background-repeat:no-repeat;padding:0;}
-.ux-theme-image-select .nav > li > a.sidebar_hide { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_01.png); background-color: transparent; }
-.ux-theme-image-select .nav > li > a.sidebar_hide_b { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_02.png); background-color: transparent; }
-.ux-theme-image-select .nav > li > a.sidebar_hide_c { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_03.png); background-color: transparent; }
-.ux-theme-image-select .nav > li > a.sidebar_hide_d { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_04.png); background-color: transparent; }
-.ux-theme-image-select .nav > li > a.sidebar_hide_e { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_05.png); background-color: transparent; }
-.ux-theme-image-select .nav > li > a.sidebar_show { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_06.png); background-color: transparent; }
-.ux-theme-image-select .nav > li > a.right-sidebar{ background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_right.png);}
-.ux-theme-image-select .nav > li > a.left-sidebar{ background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_left.png);}
-.ux-theme-image-select .nav > li > a.without-sidebar{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_no.png);}
-.ux-theme-image-select .nav > li > a.self-hosted-audio{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/self_hosted_audio.png);}
-.ux-theme-image-select .nav > li > a.soundcloud{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/soundcloud.png);}
-.ux-theme-image-select .nav > li > a.imagebox-thumb{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-small.png);}
-.ux-theme-image-select .nav > li > a.image-thumb-1{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-big.png);}
-.ux-theme-image-select .nav > li > a.standard-blog-thumb{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-long.png);}
-.ux-theme-image-select .nav > li > a.image-thumb-2{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-height.png);}
-.ux-theme-image-select .nav > li > .selected{ width:40px; height:40px; background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/selected.png);background-repeat:no-repeat;position:absolute;right:-10px; top:-10px;display:none;}
+.ux-theme-image-select .nav > li > a.sidebar_hide { background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_01.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_b { background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_02.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_c { background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_03.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_d { background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_04.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_e { background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_05.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_show { background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_06.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.right-sidebar{ background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_right.png);}
+.ux-theme-image-select .nav > li > a.left-sidebar{ background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_left.png);}
+.ux-theme-image-select .nav > li > a.without-sidebar{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_no.png);}
+.ux-theme-image-select .nav > li > a.self-hosted-audio{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/self_hosted_audio.png);}
+.ux-theme-image-select .nav > li > a.soundcloud{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/soundcloud.png);}
+.ux-theme-image-select .nav > li > a.imagebox-thumb{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-small.png);}
+.ux-theme-image-select .nav > li > a.image-thumb-1{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-big.png);}
+.ux-theme-image-select .nav > li > a.standard-blog-thumb{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-long.png);}
+.ux-theme-image-select .nav > li > a.image-thumb-2{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-height.png);}
+.ux-theme-image-select .nav > li > .selected{ width:40px; height:40px; background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/selected.png);background-repeat:no-repeat;position:absolute;right:-10px; top:-10px;display:none;}
 .ux-theme-image-select .nav > li.active > .selected{display:block;}
 
 .ux-theme-checkbox-group{line-height:22px;}
@@ -115,7 +115,7 @@
 .ux-theme-gallery-list .pagination{margin:5px 0;float:left;}
 .ux-theme-gallery-list .pagination li{margin-right:6px;}
 .ux-theme-gallery-list .pager-loading{float:right;margin:5px 0;margin-right:10px;display:none;}
-.ux-theme-gallery-list .pager-loading span{width:8px;height:8px;display:block;background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/loading-2.gif);background-repeat:no-repeat; background-position:center center}
+.ux-theme-gallery-list .pager-loading span{width:8px;height:8px;display:block;background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/loading-2.gif);background-repeat:no-repeat; background-position:center center}
 
 .ux-theme-gallery-select{min-height:140px;}
 .ux-theme-gallery-select .nav > li + li{margin-left:0;}
@@ -126,7 +126,7 @@
 .ux-theme-gallery-select .nav > li > .btn{position:absolute;right:8px;bottom:8px;z-index:101;}
 
 .ux-theme-color > li > button{width:28px;height:28px;position:relative;}
-.ux-theme-color > li > button.btn-cancelcolor{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/cancelcolor.png);background-position:center center;background-repeat:no-repeat;}
+.ux-theme-color > li > button.btn-cancelcolor{background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/theme/images/cancelcolor.png);background-position:center center;background-repeat:no-repeat;}
 .ux-theme-color > li > button > .glyphicon{position:absolute;right:0px;bottom:0px;top:auto;display:none;}
 .ux-theme-color > li.active > button > .glyphicon{display:block;}
 

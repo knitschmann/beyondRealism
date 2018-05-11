@@ -7,7 +7,7 @@
     padding: 0;
     width: 22px;
     height: 22px;
-    background: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/css/icheck/square/orange.png) no-repeat;
+    background: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/css/icheck/square/orange.png) no-repeat;
     border: none;
     cursor: pointer;
 }
@@ -53,7 +53,7 @@
        only screen and (min-device-pixel-ratio: 1.5) {
     .icheckbox_square-orange,
     .iradio_square-orange {
-        background-image: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/css/icheck/square/orange@2x.png);
+        background-image: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/css/icheck/square/orange@2x.png);
         -webkit-background-size: 240px 24px;
         background-size: 240px 24px;
     }

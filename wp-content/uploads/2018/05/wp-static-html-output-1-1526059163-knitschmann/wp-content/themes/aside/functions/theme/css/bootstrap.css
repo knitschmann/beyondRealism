@@ -1951,7 +1951,7 @@ select optgroup {
   text-overflow: '';
   background-repeat: no-repeat;
   background-position: 100% 50%;
-  background-image: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/select-form.png);
+  background-image: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/select-form.png);
 }
 .ux-theme-box .form-control:focus {
   border-color: #66afe9;
@@ -2070,7 +2070,7 @@ select optgroup {
   text-overflow: '';
   background-repeat: no-repeat;
   background-position: 100% 50%;
-  background-image: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/select-form.png);*/
+  background-image: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/select-form.png);*/
 
 }
 
@@ -2655,8 +2655,8 @@ select optgroup {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.eot');
-  src: url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.woff') format('woff'), url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.eot');
+  src: url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.eot#iefix') format('embedded-opentype'), url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 .ux-theme-box .glyphicon {

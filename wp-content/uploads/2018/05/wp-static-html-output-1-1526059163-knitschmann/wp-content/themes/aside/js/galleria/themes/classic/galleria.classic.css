@@ -59,7 +59,7 @@
     right: 10px;
     z-index: 2;
     display: none;
-    background: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/js/galleria/themes/classic/classic-loader.gif) no-repeat 2px 2px;
+    background: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/js/galleria/themes/classic/classic-loader.gif) no-repeat 2px 2px;
 }
 .galleria-info {
     width: 50%;
@@ -212,7 +212,7 @@
 .galleria-info-close,
 .galleria-image-nav-left,
 .galleria-image-nav-right {
-    background-image: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/js/galleria/themes/classic/classic-map.png);
+    background-image: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/js/galleria/themes/classic/classic-map.png);
     background-repeat: no-repeat;
 }
 .galleria-container.videoplay .galleria-info,

@@ -1231,7 +1231,7 @@ input#tc-evato-license~input[type="submit"]{ margin-top:10px; }
 
 /*input check*/
 input[type="checkbox"]{ display: none; }
-input[type=checkbox] + label {background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/lite-blue-check.png);
+input[type=checkbox] + label {background-image:url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/lite-blue-check.png);
 	padding-left:20px;
 	height:15px; 
 	display:inline-block;
@@ -1263,7 +1263,7 @@ text-align: center;
 }  
 .btn_addPic span{display: block;line-height: 39px;}  
 .btn_addPic em {  
-background: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/ico-plus.png) 0 0;  
+background: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/ico-plus.png) 0 0;  
 display: inline-block;  
 width: 18px;  
 height: 18px;  
@@ -1287,8 +1287,8 @@ filter:alpha(opacity=0);/* forIE */
 #sidebar li.widget_display_topics a.bbp-forum-title{ display:block; width:100%; margin-left:-13px; font-style:normal;text-overflow: ellipsis; overflow:hidden; white-space: nowrap;}
 /*Topic icon*/
 .bbp-topic-permalink{ font-size:14px; margin-left:50px; display:inline-block; }
-.bbp-st-topic-support.topic-resolved{width:26px; height:26px; position:absolute; top:16px; text-indent: -9999px;display:inline-block;background: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/resolved.png) no-repeat left center;}
-.bbp-st-topic-support.topic-not-resolved{width:26px; height:26px; position:absolute; top:16px;text-indent: -9999px;display:inline-block;background: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/not-resolved.png) no-repeat left center;}
+.bbp-st-topic-support.topic-resolved{width:26px; height:26px; position:absolute; top:16px; text-indent: -9999px;display:inline-block;background: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/resolved.png) no-repeat left center;}
+.bbp-st-topic-support.topic-not-resolved{width:26px; height:26px; position:absolute; top:16px;text-indent: -9999px;display:inline-block;background: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/bbpress/not-resolved.png) no-repeat left center;}
 .type-topic.status-closed li a.bbp-topic-permalink,.type-topic.super-sticky li a.bbp-topic-permalink{ display:inline-block;}
 li.bbp-body li.bbp-topic-title{ line-height:26px; line-height:26px; }
 .bbp-topics .status-publish:before{ content: "\e078"; background:none; font-size:24px; position:absolute; left:12px; top:18px; }
@@ -1326,7 +1326,7 @@ border:none;border-radius:0px; font-size:11px; color:#666;white-space:normal; }
 #bbpress-forums div.bbp-topic-content .wp-caption a,
 #bbpress-forums div.bbp-reply-content .wp-caption a{ display:block; width:100%; height:100%;}
 #bbpress-forums div.bbp-topic-content .bbp-attachments ol.with-icons li.bbp-atthumb .wp-caption a:hover,
-#bbpress-forums div.bbp-reply-content .bbp-attachments ol.with-icons li.bbp-atthumb .wp-caption a:hover{ background:rgba(0,0,0,0.3) url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/zoom.png) no-repeat 50% 50%; }
+#bbpress-forums div.bbp-reply-content .bbp-attachments ol.with-icons li.bbp-atthumb .wp-caption a:hover{ background:rgba(0,0,0,0.3) url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/img/zoom.png) no-repeat 50% 50%; }
 #bbpress-forums div.bbp-topic-content .bbp-attachments ol.with-icons li.bbp-atthumb .wp-caption a:hover img,
 #bbpress-forums div.bbp-reply-content .bbp-attachments ol.with-icons li.bbp-atthumb .wp-caption a:hover img{ opacity:0.3; }
 #bbpress-forums #bbp-search-results div.bbp-topic-author, #bbpress-forums #bbp-search-results div.bbp-reply-author{ margin-left:23px; margin-right:0; }

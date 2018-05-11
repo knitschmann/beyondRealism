@@ -46,7 +46,7 @@
 .woocommerce select.orderby,
 .woocommerce-page select.orderby {
 	 border:none; line-height: 20px; text-indent: 1px; text-overflow: ''; position: relative; 
-	 background-image: url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/woocommerce/images/select-arrow.png); background-repeat: no-repeat; background-position: 95% 50%; background-size: 14px 14px;
+	 background-image: url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/woocommerce/images/select-arrow.png); background-repeat: no-repeat; background-position: 95% 50%; background-size: 14px 14px;
 	-webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -128,7 +128,7 @@ height: 0; padding-top: 16px; overflow: hidden; float: left;
 div .widget_layered_nav ul{margin:0;padding:0;border:0;list-style:none outside;}
 div .widget_layered_nav ul li{overflow:hidden;zoom:1;padding:0 6px 0 2px; width:auto; float:none;}
 div .widget_layered_nav ul li a, div .widget_layered_nav ul li span{padding:1px 0;float:left; }
-div .widget_layered_nav ul li.chosen a{padding:0 0 0 18px; background: none; border:none; background:transparent url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/woocommerce/css/img/cross_white.png) no-repeat 6px center;}
+div .widget_layered_nav ul li.chosen a{padding:0 0 0 18px; background: none; border:none; background:transparent url(https://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/woocommerce/css/img/cross_white.png) no-repeat 6px center;}
 div .widget_layered_nav ul li.chosen {margin:2px 0; padding:3px 6px 2px 0;border:none; box-shadow:inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;-webkit-box-shadow:inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;-moz-box-shadow:inset 0 1px 1px rgba(255, 255, 255, 0.5) #888888;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
 div .widget_layered_nav ul small.count{float:right;margin-left:6px;font-size:1em;padding:1px 0;}
 
