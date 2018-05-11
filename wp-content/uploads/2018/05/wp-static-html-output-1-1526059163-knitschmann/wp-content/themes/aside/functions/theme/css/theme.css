@@ -1,0 +1,209 @@
+.ux-theme-meta-box{margin-bottom:25px;}
+.ux-theme-meta-box .inside{padding:15px 25px 15px 15px;}
+
+.ux-theme-tabs{border-top:1px solid #eee;margin-top:15px;position:relative;}
+.ux-theme-tabs .nav-tabs{border-bottom:none;margin:0px;width:200px;position:absolute;top:0px;}
+.ux-theme-tabs .nav-tabs > li{margin-bottom:0px;font-size:14px;float:none;border:1px solid #eee;border-top:none;margin-right:-1px;}
+.ux-theme-tabs .nav-tabs > li.active{border-right:1px solid #fff;}
+.ux-theme-tabs .nav-tabs > li > a{color:#999;background-color:#f6f6f6;text-decoration:none;padding:12px 20px;}
+.ux-theme-tabs .nav-tabs > li > a:hover{background-color:#f0f0f0;}
+.ux-theme-tabs .nav-tabs > li.active > a{color:#555;background-color:#fff;}
+.ux-theme-tabs .nav-tabs > li.active > a:hover{background-color:#fff;}
+.ux-theme-tabs .nav-tabs > li > a,
+.ux-theme-tabs .nav-tabs > li > a:hover,
+.ux-theme-tabs .nav-tabs > li > a:focus,
+.ux-theme-tabs .nav-tabs > li.active > a,
+.ux-theme-tabs .nav-tabs > li.active > a:hover,
+.ux-theme-tabs .nav-tabs > li.active > a:focus{border:none;margin:0;border-radius:0;}
+.ux-theme-tabs .tab-content{border:1px solid #eee;border-top:none;margin-left:200px;padding:0 20px;min-height:350px;}
+.ux-theme-option-submit{border:1px solid #eee;border-top:none;margin-left:200px;padding:10px 20px;}
+
+.ux-theme-switch-color{position:relative;}
+.ux-theme-remove-color{display:block;position:absolute;right:15px;top:0px;width:34px;height:34px;background:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/icon/remove.png) no-repeat center center;cursor:pointer;}
+.ux-theme-no-col.col-sm-2,
+.ux-theme-no-col.col-sm-3,
+.ux-theme-no-col.col-sm-4,
+.ux-theme-no-col.col-sm-5,
+.ux-theme-no-col.col-sm-6,
+.ux-theme-no-col.col-sm-12{padding-left:0;}
+
+.ux-theme-divider{height:1px;line-height:1px;background:#999;border-bottom:1px solid #ddd;margin-bottom:25px;}
+
+.ux-theme-social-medias{margin-bottom:5px;}
+
+.ux-theme-new-social-medias{}
+.ux-theme-new-social-medias .new-media-col-button{float:left;}
+.ux-theme-new-social-medias .new-media-col-input{float:left;}
+.ux-theme-new-social-medias .ux-theme-social-medias{position:relative;}
+.ux-theme-new-social-medias .new-media-col-select-icon,
+.ux-theme-new-social-medias .new-media-col-icon,
+.ux-theme-new-social-medias .new-media-col-add,
+.ux-theme-new-social-medias .new-media-col-remove{width:30px;}
+.ux-theme-new-social-medias .new-media-col-url{margin:0 80px;}
+.ux-theme-new-social-medias .new-media-col-url input{width:48%;}
+.ux-theme-new-social-medias .new-media-col-select-icon,
+.ux-theme-new-social-medias .new-media-col-icon{margin-right:10px;position:relative;}
+.ux-theme-new-social-medias .new-media-col-icon{height:30px;border:1px dotted #ccc;}
+.ux-theme-new-social-medias .new-media-col-icon .icon-content{position:absolute;height:100%;width:100%;text-align:center;}
+.ux-theme-new-social-medias .new-media-col-icon .icon-content img{max-width:100%;padding:3px;}
+.ux-theme-new-social-medias .new-media-col-icon .icon-content .fa{font-size:18px;padding:5px;}
+.ux-theme-new-social-medias .new-media-col-add,
+.ux-theme-new-social-medias .new-media-col-remove{margin-left:10px;position:absolute;top:0px;}
+.ux-theme-new-social-medias .new-media-col-add{right:40px;}
+.ux-theme-new-social-medias .new-media-col-remove{right:0px;}
+
+.ux-widget-social-network-icons{margin:15px 0;}
+.ux-widget-social-network-icons .ux-theme-social-medias{margin-bottom:15px;}
+.ux-widget-social-network-icons .new-media-col-url{margin:0;margin-top:10px;}
+.ux-widget-social-network-icons .new-media-col-url input{width:100%;margin-bottom:10px;}
+.ux-widget-social-network-icons .new-media-col-add,
+.ux-widget-social-network-icons .new-media-col-remove{right:0px;}
+
+.ux-theme-option-select-icons{padding:20px;}
+.ux-theme-option-icons{margin-top:15px;}
+.ux-theme-option-icons i{cursor:pointer;font-size:16px;width:20px;line-height:20px;height:20px;background-image:none; text-decoration:none; }
+.ux-theme-option-icons a{text-align: center; border:1px dashed #ccc;padding:3px;color:#333;margin-bottom:0.2em;display:inline-block;text-decoration:none;}
+.ux-theme-option-icons a:hover,
+.ux-theme-option-icons a:focus,
+.ux-theme-option-icons a:active{border:1px dashed #333;color:#fff;background:#333;text-decoration:none;}
+.ux-theme-option-icons a.current{background:#F60;color:#fff;}
+.ux-theme-option-icons a.user-uploaded-icons img{width:48px;height:48px;}
+.ux-theme-option-icons a.user-uploaded-icons{display:none;float:left;margin:0 15px 15px 0;}
+
+.theme-option-item{}
+.theme-option-item h3,
+.theme-option-item h4{font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;margin-bottom:15px;}
+.theme-option-item .row{margin-bottom:25px;}
+.theme-option-item .make-switch{margin-bottom:10px;}
+.theme-option-item-body{border:3px solid #ddd;padding:15px;margin-bottom:25px;}
+.theme-option-upload .btn{font-size:14px;}
+.theme-option-item .form-group.row{margin-bottom:0;}
+
+.ux-theme-image-select{margin-bottom:15px;}
+.ux-theme-image-select .nav > li{position:relative;margin-right:15px;}
+.ux-theme-image-select .nav > li > a{border-radius:0px;display:block;background-repeat:no-repeat;padding:0;}
+.ux-theme-image-select .nav > li > a.sidebar_hide { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_01.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_b { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_02.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_c { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_03.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_d { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_04.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_hide_e { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_05.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.sidebar_show { background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/aside_layout_06.png); background-color: transparent; }
+.ux-theme-image-select .nav > li > a.right-sidebar{ background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_right.png);}
+.ux-theme-image-select .nav > li > a.left-sidebar{ background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_left.png);}
+.ux-theme-image-select .nav > li > a.without-sidebar{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/sidebar_no.png);}
+.ux-theme-image-select .nav > li > a.self-hosted-audio{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/self_hosted_audio.png);}
+.ux-theme-image-select .nav > li > a.soundcloud{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/soundcloud.png);}
+.ux-theme-image-select .nav > li > a.imagebox-thumb{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-small.png);}
+.ux-theme-image-select .nav > li > a.image-thumb-1{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-big.png);}
+.ux-theme-image-select .nav > li > a.standard-blog-thumb{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-long.png);}
+.ux-theme-image-select .nav > li > a.image-thumb-2{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/thumb-height.png);}
+.ux-theme-image-select .nav > li > .selected{ width:40px; height:40px; background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/selected.png);background-repeat:no-repeat;position:absolute;right:-10px; top:-10px;display:none;}
+.ux-theme-image-select .nav > li.active > .selected{display:block;}
+
+.ux-theme-checkbox-group{line-height:22px;}
+.ux-theme-checkbox-group > li{margin-right:15px;}
+.ux-theme-checkbox-group .icheckbox_square-blue{float:left;margin-right:5px;}
+
+.ux-theme-gallery-list .nav{position:relative;}
+.ux-theme-gallery-list .nav > li + li{margin-left:0;}
+.ux-theme-gallery-list .nav > li{margin-left:0;width:10.75%;position:relative;overflow:hidden;margin-bottom:2%;}
+.ux-theme-gallery-list .nav > li > .thumbnail{margin-bottom:0;padding:0px;overflow:hidden;position:absolute;height:100%;width:100%;}
+.ux-theme-gallery-list .nav > li > .thumbnail img{position:absolute;z-index:98;}
+.ux-theme-gallery-list .nav > li > .thumbnail .border{display:block;border:4px solid #fff;z-index:99;position:absolute;height:100%;width:100%;}
+.ux-theme-gallery-list .nav > li.active > .thumbnail{border:1px solid #428bca;}
+.ux-theme-gallery-list .pager{text-align:right;margin:5px 0;text-transform:uppercase;}
+.ux-theme-gallery-list .pagination{margin:5px 0;float:left;}
+.ux-theme-gallery-list .pagination li{margin-right:6px;}
+.ux-theme-gallery-list .pager-loading{float:right;margin:5px 0;margin-right:10px;display:none;}
+.ux-theme-gallery-list .pager-loading span{width:8px;height:8px;display:block;background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/loading-2.gif);background-repeat:no-repeat; background-position:center center}
+
+.ux-theme-gallery-select{min-height:140px;}
+.ux-theme-gallery-select .nav > li + li{margin-left:0;}
+.ux-theme-gallery-select .nav > li{margin-left:0;width:23.5%;position:relative;overflow:hidden;margin-bottom:2%;}
+.ux-theme-gallery-select .nav > li > .thumbnail{margin-bottom:0;padding:0px;overflow:hidden;position:absolute;height:100%;width:100%;}
+.ux-theme-gallery-select .nav > li > .thumbnail img{position:absolute;z-index:98;}
+.ux-theme-gallery-select .nav > li > .thumbnail .border{display:block;border:4px solid #fff;z-index:99;position:absolute;height:100%;width:100%;}
+.ux-theme-gallery-select .nav > li > .btn{position:absolute;right:8px;bottom:8px;z-index:101;}
+
+.ux-theme-color > li > button{width:28px;height:28px;position:relative;}
+.ux-theme-color > li > button.btn-cancelcolor{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059163-knitschmann/wp-content/themes/aside/functions/theme/images/cancelcolor.png);background-position:center center;background-repeat:no-repeat;}
+.ux-theme-color > li > button > .glyphicon{position:absolute;right:0px;bottom:0px;top:auto;display:none;}
+.ux-theme-color > li.active > button > .glyphicon{display:block;}
+
+.ux-theme-color-scheme{}
+.ux-theme-color-scheme.nav-pills > li + li{margin:8px;margin-bottom:8px;}
+.ux-theme-color-scheme .scheme-item{
+	margin:8px;margin-bottom:8px; width:8%; min-width:30px; height:30px;position:relative;overflow:hidden;cursor:pointer;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.ux-theme-color-scheme .scheme-item .triangle{width:0;height:0;border-bottom:40px solid transparent;border-left:40px solid transparent;position:absolute;right:0px;bottom:0px;z-index:1px;}
+.ux-theme-color-scheme .scheme-item .selected{position:absolute;left:0px;right:0px;top:0px;bottom:0px;display:none;z-index:5;border-width:3px;border-style:solid;}
+.ux-theme-color-scheme .scheme-item.active .selected{display:block;}
+.theme_option_color_scheme .nav-pills > li{ 
+	border: 1px solid #f0f0f0;
+}
+
+.theme-option-select-images-content{margin-top:35px;}
+.theme-option-select-images-content > .nav > li{width:50px;height:50px;border:2px dotted #999;margin:0 20px 20px 0;position:relative;}
+.theme-option-select-images-content > .nav > li > img{max-width:100%;}
+.theme-option-select-images-content > .nav > li:hover > img{border-color:#F60;}
+.theme-option-select-images-content > .nav > li + li{margin-left:0;}
+.theme-option-select-images-content > .nav > li .glyphicon{
+	position:absolute;top:-8px;right:-8px;cursor:pointer;font-size:12px; width: 18px; height: 18px; text-align: center; line-height: 18px; 
+	display: block; border-radius: 9px;
+	background-color: #ee7164;color:#fff;
+}
+
+#ux-theme-modal .modal-dialog{width:85%;padding-top:40px;height:100%;}
+#ux-theme-modal .modal-dialog .modal-content{height:100%;}
+#ux-theme-modal .modal-dialog .modal-body{padding:0;position:absolute;bottom:71px;top:57px;width:100%;overflow:auto;overflow-x:hidden;}
+#ux-theme-modal .modal-dialog .modal-footer{margin-top:0px;position:absolute;bottom:0px;width:100%;}
+#ux-theme-modal .ux-theme-modal-agree{display:none;}
+#ux-theme-modal .ux-theme-modal-notice{margin:25px;}
+
+#adminmenu .wp-menu-image img{padding:3px 0px 0px 3px;}
+
+.themeoption-help-wrap{ display:inline-block; width:20px; height:20px; cursor:pointer; }
+.themeoption-help-a{ text-decoration:none; }
+.themeoption-help{ 
+	font-size:10px; display:inline-block; width:16px; height:16px; border-radius:8px; margin-left:5px; text-align:center; line-height:16px; 
+	color:#b5b5b5; background-color:#f0f0f0;  
+}
+.themeoption-help-hide{  position:absolute; opacity:0; 
+-webkit-transition:all 0.5s;
+   -moz-transition:all 0.5s;
+        transition:all 0.5s;
+}
+
+/*For user gudie tip */
+.show-hide-guide-wrap{
+	display: inline-block;
+}
+.show-hide-guide-wrap span{
+	display: block; width:16px; height:16px; text-align: center; line-height:15px; color:#ccc; border-radius:8px; cursor: pointer;
+	border: 1px solid #ccc;
+}
+.show-hide-guide-wrap span a:hover{
+	text-decoration: none;
+}
+#postimagediv .hide-if-no-js:first-child:after,
+.media-new-php .max-upload-size:after{
+	content: 'the image size is recommended bigger than 800px(width) x 800px(height), especially for portfolio thumbnails'; display: block; font-style: italic;
+}
+.media-new-php .max-upload-size:after{
+	margin-top: 10px;  
+}
+.btn-sm.restore_defaults{ float: left;
+margin-right: 10px; }
+.btn-support{
+	margin-left: 10px;
+}
+
+/* post options -> Portfolio Template -> property */
+.property-item.row{margin-bottom:15px;}
+.property-item.row .col-xs-5{padding-right:0px;}
+.property-item.row .row{margin-bottom:10px;}

@@ -1,0 +1,1132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Aside(Front end)\n"
+"POT-Creation-Date: 2014-05-17 11:37+0800\n"
+"PO-Revision-Date: 2014-05-17 11:38+0800\n"
+"Last-Translator: fanpeng <fanpengbj@gmail.com>\n"
+"Language-Team: uiueux <uiueux@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: C:\\Users\\Administrator\\Desktop\\Desk Temp\\aside-po-"
+"frontend\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:11
+msgid "STAY CALM AND DON'T FREAK OUT!"
+msgstr ""
+
+#: 404.php:13
+msgid ""
+"Unfortunately, the page you are looking for is unavailable. Trying visit our "
+"<a href=\""
+msgstr ""
+
+#: comments.php:16
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:36 functions/pagebuilder/modules/contact-form.php:21
+msgid "NAME"
+msgstr ""
+
+#: comments.php:37 functions/pagebuilder/modules/contact-form.php:22
+msgid "EMAIL"
+msgstr ""
+
+#: comments.php:38 woocommerce/ux-woocommerce-functions.php:107
+msgid "YOU REVIEW"
+msgstr ""
+
+#: comments.php:52 woocommerce/ux-woocommerce-functions.php:122
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: comments.php:53
+msgid "LEAVE A COMMENT"
+msgstr ""
+
+#: comments.php:54
+#, php-format
+msgid "LEAVE A COMMENT to %s"
+msgstr ""
+
+#: comments.php:55
+msgid "CANCEL REPLY"
+msgstr ""
+
+#: comments.php:56 woocommerce/ux-woocommerce-functions.php:126
+msgid "SEND"
+msgstr ""
+
+#: comments.php:58 woocommerce/ux-woocommerce-functions.php:128
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: functions/interface/interface-functions.php:24
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:21
+#: functions/pagebuilder/modules/contact-form.php:22
+#: functions/pagebuilder/modules/contact-form.php:23
+msgid "Required"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:22
+msgid "Invalid email"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:23
+msgid "YOUR REVIEW"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:24
+#: functions/pagebuilder/modules/contact-form.php:57
+msgid "Sending"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:24
+msgid "Please Enter Correct Verification Number"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:34
+msgid "CAPTCHA"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:66
+msgid "Captcha"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:100
+#: functions/pagebuilder/modules/contact-form.php:112
+#, fuzzy
+msgid "Contact Form"
+msgstr "联系我们"
+
+#: functions/pagebuilder/modules/contact-form.php:101
+msgid "Single Field"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:114
+msgid "Form Type"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:119
+msgid "Recipient Email"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:120
+msgid "Enter the email to receive the messages."
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:128
+msgid "Field Text"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:136
+msgid "Button Text"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:137
+msgid "Enter the text you want to show on button."
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:145
+msgid "Sent Message"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:146
+msgid ""
+"Enter the inform information you want to show after user send out the "
+"message."
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:154
+msgid "Show Captcha"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:171
+#: functions/pagebuilder/modules/liquid-list.php:675
+#: functions/pagebuilder/modules/portfolio.php:667
+msgid "Advanced Settings"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:172
+#: functions/pagebuilder/modules/liquid-list.php:676
+#: functions/pagebuilder/modules/portfolio.php:668
+msgid "magin and animations"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:177
+#: functions/pagebuilder/modules/liquid-list.php:681
+#: functions/pagebuilder/modules/portfolio.php:673
+msgid "Bottom Margin"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:178
+#: functions/pagebuilder/modules/liquid-list.php:682
+#: functions/pagebuilder/modules/portfolio.php:674
+msgid "the spacing outside the bottom of module"
+msgstr ""
+
+#: functions/pagebuilder/modules/contact-form.php:214
+#, fuzzy
+msgid "Contact Form 7"
+msgstr "联系我们"
+
+#: functions/pagebuilder/modules/contact-form.php:225
+#, fuzzy
+msgid "Contact Form 7 Alias"
+msgstr "联系我们"
+
+#: functions/pagebuilder/modules/liquid-list.php:485
+msgid "Read more..."
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:524
+msgid "Image"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:525
+msgid "Magazine"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:529
+#: functions/pagebuilder/modules/portfolio.php:457
+msgid "0px"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:530
+#: functions/pagebuilder/modules/portfolio.php:461
+msgid "10px"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:531
+#: functions/pagebuilder/modules/portfolio.php:462
+msgid "20px"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:532
+msgid "30px"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:533
+msgid "40px"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:539
+#: functions/pagebuilder/modules/portfolio.php:474
+msgid "Auto Ratio(Masonry)"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:543
+#: functions/pagebuilder/modules/portfolio.php:466
+msgid "Medium"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:544
+#: functions/pagebuilder/modules/portfolio.php:467
+msgid "Large"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:545
+#: functions/pagebuilder/modules/portfolio.php:468
+msgid "Small"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:549
+msgid "Title"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:550
+msgid "Read More Button"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:554
+#: functions/pagebuilder/modules/portfolio.php:478
+#: functions/pagebuilder/modules/portfolio.php:485
+#: functions/pagebuilder/modules/portfolio.php:504
+msgid "No"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:555
+#: functions/pagebuilder/modules/portfolio.php:505
+msgid "Page Number"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:556
+#: functions/pagebuilder/modules/portfolio.php:506
+msgid "Load More"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:560
+msgid "Post Featured Color"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:561
+#: functions/pagebuilder/modules/portfolio.php:494
+msgid "Grey"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:562
+msgid "White"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:566
+msgid "2 Columns"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:567
+msgid "3 Columns"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:568
+msgid "4 Columns"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:580
+msgid "Liquid list"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:582
+msgid "Style by Default"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:583
+msgid "Choose a style for the Liquid List"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:588
+msgid "Enable Mouseover Effect"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:589
+msgid "Turn on it to enable mouseover effect"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:598
+#: functions/pagebuilder/modules/portfolio.php:536
+msgid "Image Size"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:599
+msgid "Choose a size for the images under image style"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:608
+msgid "Block Ratio"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:609
+msgid ""
+"The images come from featured image, a image larger than 600*600px would be "
+"recommended"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:618
+msgid "Spacing Between Blocks"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:619
+msgid "The size of gaps between post blocks"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:624
+#: functions/pagebuilder/modules/portfolio.php:605
+msgid "Category"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:625
+msgid "The posts under the category you selected would be shown in this module"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:631
+#: functions/pagebuilder/modules/portfolio.php:611
+msgid "Order by"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:632
+#: functions/pagebuilder/modules/portfolio.php:612
+msgid "Select sequence rules for the list"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:637
+#: functions/pagebuilder/modules/portfolio.php:566
+msgid "Pagination"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:638
+#: functions/pagebuilder/modules/portfolio.php:567
+msgid ""
+"The \"Twitter\" option is to show a \"Load More\" button on the bottom of "
+"the list"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:643
+msgid "Number per Page"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:644
+#: functions/pagebuilder/modules/portfolio.php:597
+msgid ""
+"How many items should be displayed per page, leave it empty to show all "
+"items in one page"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:648
+msgid "Loading Block Color"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:649
+msgid "The panel color for the loading status after you click on it"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:658
+msgid "Expanded Block Width"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:659
+msgid "The width after a block is expanded"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:664
+msgid "Expanded Block Words Numbers"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:665
+msgid "How many descrptions should be showed for a expanded block"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:669
+msgid "Show Social Medias on Expanded Block"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:670
+msgid "Enable it to show Social Medias links on expanded block"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:691
+#: functions/pagebuilder/modules/portfolio.php:683
+msgid "Scroll in Animation"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:692
+#: functions/pagebuilder/modules/portfolio.php:684
+msgid "enable to select Scroll in animation effect"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:701
+#: functions/pagebuilder/modules/portfolio.php:693
+msgid "Scroll in Animation Effect"
+msgstr ""
+
+#: functions/pagebuilder/modules/liquid-list.php:702
+#: functions/pagebuilder/modules/portfolio.php:694
+msgid "animation effect when the module enter the scene"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:96
+msgid "All"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:296
+msgid "PREVIEW"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:297
+msgid "READMORE"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:451
+msgid "Grid List"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:452
+msgid "Interlock List"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:453
+msgid "Brick"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:458
+msgid "1px"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:459
+msgid "2px"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:460
+msgid "5px"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:479
+#: functions/pagebuilder/modules/portfolio.php:486
+msgid "Top"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:480
+#: functions/pagebuilder/modules/portfolio.php:487
+msgid "Left"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:481
+#: functions/pagebuilder/modules/portfolio.php:488
+msgid "Right"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:489
+msgid "Floating"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:493
+msgid "Standard"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:498
+msgid "Folding"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:499
+msgid "Flip"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:500
+msgid "Mask"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:518
+msgid "Portfolio"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:520
+msgid "List Type"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:526
+msgid "Spacing Between Images"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:527
+msgid "Choose the spacing between images"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:537
+msgid "Choose a size for the images"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:546
+msgid "Image Ratio"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:547
+msgid ""
+"From portfilio post featured image, recommended size: larger than 600px * "
+"600px"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:556
+#: functions/pagebuilder/modules/portfolio.php:640
+msgid "Sortable"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:557
+msgid "Choose whether you want the list to be sortable or not"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:576
+#: functions/pagebuilder/modules/portfolio.php:658
+msgid "Hover Effect"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:577
+msgid "Choose a mouseover effect for the images"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:586
+msgid "Double Size First Item"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:587
+msgid "Enlarge the first image in the list"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:596
+msgid "Post Number per Page"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:606
+msgid ""
+"The featured images of the Portfolio posts under the category you selected "
+"would be shown in this module"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:621
+msgid "Enable Post Meta"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:622
+msgid "Turn on it to enable post meta information"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:631
+msgid "Style"
+msgstr ""
+
+#: functions/pagebuilder/modules/portfolio.php:649
+msgid "Filter Fixed"
+msgstr ""
+
+#: functions/theme/theme-post.php:101
+#: woocommerce/single-product-reviews.php:24
+msgid " ago"
+msgstr ""
+
+#: functions/theme/theme-post.php:102
+msgid "Reply"
+msgstr ""
+
+#: functions/theme/theme-post.php:108
+msgid "Your comment is awaiting moderation"
+msgstr ""
+
+#: searchform.php:3
+msgid "GO"
+msgstr ""
+
+#: sidebar.php:39 template/mobile-meta.php:20
+msgid "SEARCH"
+msgstr ""
+
+#: template/archive-loop.php:22
+msgid "Read more"
+msgstr ""
+
+#: template/archive-loop.php:33
+msgid "Sorry, no articles"
+msgstr ""
+
+#: template/mobile-meta.php:9
+msgid "LANGUAGUES"
+msgstr ""
+
+#: template/post-format-audio.php:13
+msgid "Artist: "
+msgstr ""
+
+#: template/post-type-jobs.php:8
+msgid "Location:"
+msgstr ""
+
+#: template/post-type-jobs.php:12
+msgid "Number:"
+msgstr ""
+
+#: template/post-type-team.php:14
+msgid "POSITION:"
+msgstr ""
+
+#: template/post-type-team.php:18
+msgid "EMAIL:"
+msgstr ""
+
+#: template/post-type-team.php:22
+msgid "PHONE NUMBEr:"
+msgstr ""
+
+#: template/single-portfolio-property.php:36 template/title-bar.php:76
+msgid "Date: "
+msgstr ""
+
+#: template/single-portfolio-property.php:43 template/title-bar.php:80
+msgid "Category: "
+msgstr ""
+
+#: template/single-portfolio-property.php:50 template/title-bar.php:84
+msgid "Tags: "
+msgstr ""
+
+#: template/single-portfolio-property.php:57 template/title-bar.php:88
+msgid "Author: "
+msgstr ""
+
+#: template/single-portfolio-related.php:66
+msgid "Related Posts"
+msgstr ""
+
+#: template/title-bar.php:24
+msgid "Category : "
+msgstr ""
+
+#: template/title-bar.php:29
+msgid "Tag : "
+msgstr ""
+
+#: template/title-bar.php:34
+msgid "Search Results"
+msgstr ""
+
+#: template/title-bar.php:39 template/title-bar.php:42
+#: template/title-bar.php:45
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: template/title-bar.php:48 template/title-bar.php:61
+msgid "Archives"
+msgstr ""
+
+#: template/title-bar.php:57
+msgid "Latest News"
+msgstr ""
+
+#: template/title-bar.php:115
+#, php-format
+msgid "Search for: %s"
+msgstr ""
+
+#: template/title-bar.php:126
+msgid "Enter keyword to search"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:4
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:6
+msgid "Shipping and Handling"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:43
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:47
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:60 woocommerce/cart/cart-shipping.php:66
+msgid ""
+"There doesn&lsquo;t seem to be any available shipping methods. Please double "
+"check your address, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:81 woocommerce/cart/totals.php:36
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart.php:18 woocommerce/order/order-details.php:10
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:19
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:20
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:21 woocommerce/checkout/review-order.php:90
+#: woocommerce/order/order-details.php:11
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:52
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:85
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:109
+msgid "Promotional Code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:110
+msgid "Enter promotion code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:111
+msgid "Apply"
+msgstr ""
+
+#: woocommerce/cart/cart.php:125
+msgid "Update Shopping Bag"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: woocommerce/cart/cart.php:133
+msgid "Continue shopping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:15
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:23
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:38
+#: woocommerce/cart/shipping-calculator.php:43
+#: woocommerce/cart/shipping-calculator.php:53
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:44
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:60
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:68
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:73
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/cart/totals.php:12
+msgid "Shopping bag summary"
+msgstr ""
+
+#: woocommerce/cart/totals.php:18
+msgid "Cart Subtotal"
+msgstr ""
+
+#: woocommerce/cart/totals.php:25
+msgid "Cart Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:25 woocommerce/cart/totals.php:72
+msgid "[Remove]"
+msgstr ""
+
+#: woocommerce/cart/totals.php:72
+msgid "Order Discount"
+msgstr ""
+
+#: woocommerce/cart/totals.php:81
+msgid "Order Total"
+msgstr ""
+
+#: woocommerce/cart/totals.php:93
+#, php-format
+msgid "(Includes %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:107
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/totals.php:109
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/totals.php:121
+msgid ""
+"No shipping methods were found; please recalculate your shipping and enter "
+"your state/county and zip/postcode to ensure there are no other available "
+"methods for your location."
+msgstr ""
+
+#: woocommerce/cart/totals.php:129
+#, php-format
+msgid ""
+"Sorry, it seems that there are no available shipping methods for your "
+"location (%s)."
+msgstr ""
+
+#: woocommerce/cart/totals.php:129
+msgid ""
+"If you require assistance or wish to make alternate arrangements please "
+"contact us."
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:6
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:10
+#: woocommerce/order/order-details.php:96
+msgid "Billing Address"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:38
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:11
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:46
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:4
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:7
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:17
+msgid "Login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:23
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:18
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:44
+#: woocommerce/single-product/tabs/additional-information.php:4
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:34
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:104
+msgid "Payment Method"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:136
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:138
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:149
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:149
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:156
+msgid "Place order"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:165
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:9
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:12
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:14
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:20
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:26 woocommerce/checkout/thankyou.php:57
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:43
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:1
+msgid "No products found which match your selection."
+msgstr ""
+
+#: woocommerce/loop/sale-flash.php:6
+#: woocommerce/single-product/sale-flash.php:6
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/order/order-details.php:6
+msgid "Order Details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:51
+#, php-format
+msgid "Download file%s"
+msgstr ""
+
+#: woocommerce/order/order-details.php:76
+msgid "Order Again"
+msgstr ""
+
+#: woocommerce/order/order-details.php:83
+msgid "Customer details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:87
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:88
+msgid "Telephone:"
+msgstr ""
+
+#: woocommerce/order/order-details.php:100
+#: woocommerce/order/order-details.php:113
+#: woocommerce/single-product/meta.php:14
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:109
+msgid "Shipping Address"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:10
+msgid "0 COMMENTS"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:10
+msgid "1 COMMENT"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:10
+msgid "% COMMENTS"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:19
+#, php-format
+msgid "Rated %d out of 5"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:19
+#: woocommerce/single-product/rating.php:15
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:14
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:13
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/single-product/related.php:26
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:29
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/ux-template/sidebar-cart.php:4
+msgid "SHOPPING CART"
+msgstr ""
+
+#: woocommerce/ux-woocommerce-functions.php:86
+msgid "Leave a Review"
+msgstr ""
+
+#: woocommerce/ux-woocommerce-functions.php:123
+msgid "LEAVE A REPLY"
+msgstr ""
+
+#: woocommerce/ux-woocommerce-functions.php:124
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/ux-woocommerce-functions.php:125
+msgid "Cancel reply"
+msgstr ""
+
+#: woocommerce/ux-woocommerce-functions.php:137
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/ux-woocommerce-register.php:5
+msgid "Shop Sidebar"
+msgstr ""

@@ -1,0 +1,314 @@
+#ux-pb-switch{margin-bottom:10px;}
+#ux-pb-box{display:none;margin-bottom:25px;}
+#ux-pb-box .inside{padding:0;margin:0;}
+#TB_window{z-index:1200;}
+#TB_overlay{z-index:1199;}
+
+#ux-pb-box-toolbar{position:relative;border-top:1px solid #ddd;border-bottom:1px solid #ddd;background-color:#eee;}
+#ux-pb-box-toolbar-main{width:70%;}
+#ux-pb-box-toolbar-sub{width:30%;position:absolute;right:0px;top:0px;}
+#ux-pb-box-toolbar-main,
+#ux-pb-box-toolbar-sub{padding:5px 8px;}
+#ux-pb-box-toolbar .dropdown-menu{text-align:left;}
+
+#ux-pb-box-cols,
+#ux-pb-box-choose,
+#ux-pb-box-editor,
+#ux-pb-box-bgcolor{display:none;}
+
+#ux-pb-box-container{padding:4px;}
+.ux-pb-box-container{width:100%;min-height:350px;position:relative;}
+.ux-pb-subbox-container{width:100%;min-height:40px;position:relative;}
+.ux-pb-box-container .grabbing{
+	-webkit-ransform: rotate(3deg);
+	   -moz-ransform: rotate(3deg);
+	    -ms-ransform: rotate(3deg);
+	     -o-ransform: rotate(3deg);
+	        ransform: rotate(3deg);
+}
+.ux-pb-box-container .moving{
+	-webkit-transition: all 100ms ease;
+	   -moz-transition: all 100ms ease;
+	    -ms-transition: all 100ms ease;
+	     -o-transition: all 100ms ease;
+			transition: all 100ms ease;
+	
+}
+.ux-pb-box-container .ui-sortable-placeholder{visibility:visible!important;background:#ccc;}
+.ux-pb-box-container .ui-sortable-placeholder .starting{
+	-webkit-transition-property: none;
+	   -moz-transition-property: none;
+	    -ms-transition-property: none;
+	     -o-transition-property: none;
+	        transition-property: none;
+}
+.ux-pb-box-container .isotopey,
+.ux-pb-box-container .sub-isotopey{
+	-webkit-transition: all 500ms ease;
+	   -moz-transition: all 500ms ease;
+	    -ms-transition: all 500ms ease;
+	     -o-transition: all 500ms ease;
+			transition: all 500ms ease;
+	
+	-webkit-transition-property: transform, top, left;
+	   -moz-transition-property: transform, top, left;
+	    -ms-transition-property: transform, top, left;
+	     -o-transition-property: transform, top, left;
+	        transition-property: transform, top, left;
+}
+
+.ux-pb-box-container .ux-droppable-hover{background-color:#ff6;}
+
+.ux-pb-item{float:left;position:relative;width:100%;}
+.panel-pbbox{padding:4px;}
+.panel-pbbox > .panel{margin-bottom:0px;}
+.panel-pbbox > .panel > .panel-heading{background-color:#525252;background-image:none;color:#fff;padding:0;height:28px;position:relative;overflow:hidden;cursor:move;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff525252', endColorstr='#ff525252', GradientType=0);}
+.panel-pbbox > .panel > .panel-heading a{display:block;float:left;width:28px;height:28px;color:#d5d5d5;line-height:28px;text-align:center;border-right:1px solid #464646;background-color:#525252;}
+.panel-pbbox > .panel > .panel-heading a:hover{background:#727272;}
+.panel-pbbox > .panel > .panel-heading a.remove{position:absolute;top:0px;right:0px;border-left:1px solid #464646;border-right:none;color:#ED543A;}
+.panel-pbbox > .panel > .panel-heading .module-title{float:left;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;padding-top:3px;padding-left:5px;}
+.panel-pbbox > .panel > .panel-heading .module-title .label{font-size:12px;font-weight:normal;}
+.panel-pbbox > .panel > .panel-heading .module-choose,
+.panel-pbbox > .panel > .panel-heading .module-setting{position:absolute;top:3px;right:38px;font-size:12px;cursor:pointer;}
+.panel-pbbox > .panel > .panel-heading .module-setting{right:100px;}
+.panel-pbbox > .panel > .panel-heading .module-choose .label,
+.panel-pbbox > .panel > .panel-heading .module-setting .label{cursor:pointer;}
+
+.panel-pbbox > .panel > .panel-body{padding:6px;min-height:60px;}
+
+.panel-pbsubbox{padding:4px;}
+.panel-pbsubbox .panel{margin-bottom:0px;position:relative;}
+.panel-pbsubbox .panel .panel-heading{position:relative;background-color:#fff;background-image:none;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);padding:3px;}
+.panel-pbsubbox .panel .panel-heading a{display:block;overflow:hidden;clear:both;float:left;border:1px solid #d8d8d8;background-color:#e0e0e0;width:20px;height:20px;color:#5e5e5e;border-radius:3px;background-position:center center;background-repeat:no-repeat;}
+.panel-pbsubbox .panel .panel-heading a:hover{background-color:#efefef;color:#5e5e5e;text-decoration:none;}
+.panel-pbsubbox .panel .panel-heading .increase{margin-bottom:3px;background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/increase.png);}
+.panel-pbsubbox .panel .panel-heading .decrease{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/decrease.png);}
+.panel-pbsubbox .panel .panel-heading .remove{position:absolute;right:3px;top:3px;background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/remove.png);background-color:#ffffff;}
+.panel-pbsubbox .panel .panel-heading .copy{position:absolute;right:26px;top:3px;background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/copy.png);background-color:#ffffff;}
+.panel-pbsubbox .panel .panel-heading .edit{position:absolute;font-size:12px;width:43px;right:3px;top:26px;background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/edit.png);background-color:#ffffff;padding-left:17px;background-position:5px 5px;line-height:18px;}
+.panel-pbsubbox .panel .panel-body{position:absolute;top:0px;padding:0px;line-height:48px;height:100%;color:#666;left:32px;}
+.panel-pbsubbox .panel .panel-body .label{padding:0.3em 0.6em;}
+
+#ux-pb-modal .modal-dialog{width:85%;padding-top:40px;height:100%;}
+#ux-pb-modal .modal-dialog .modal-content{height:100%;}
+#ux-pb-modal .modal-dialog .modal-content .model-open-subwin{position:absolute;top:0px;width:100%;height:100%;left:0px;background-color:#FFFFFF;opacity:0.6;display:none;z-index:999;}
+#ux-pb-modal .modal-dialog .modal-content .modal-body{position:absolute;bottom:71px;top:57px;width:100%;overflow:auto;overflow-x:hidden;}
+#ux-pb-modal .modal-dialog .modal-content .modal-footer{margin-top:0px;position:absolute;bottom:0px;width:100%;}
+
+#ux-pb-modal.notbody .modal-dialog{height:auto;}
+#ux-pb-modal.notbody .modal-dialog .modal-content{height:auto;}
+#ux-pb-modal.notbody .modal-dialog .modal-content .model-open-subwin{display:none;}
+#ux-pb-modal.notbody .modal-dialog .modal-content .modal-body{position:relative;bottom:0px;top:0px;padding:0px;}
+#ux-pb-modal.notbody .modal-dialog .modal-content .modal-footer{display:none;}
+
+.ux-pb-choose-module.nav-pills{width:100%;}
+.ux-pb-choose-module.nav-pills > li{width:20%;margin:0;border-bottom:1px solid #E5E5E5;white-space:nowrap;}
+.ux-pb-choose-module.nav-pills > li + li{margin:0;}
+.ux-pb-choose-module.nav-pills > li > a{border-radius:0px;background-position:8px center;color:#333;background-repeat:no-repeat;padding-left:35px;}
+
+.ux-pb-choose-module .loading{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/loading.gif);background-position:9px center;}
+.ux-pb-choose-module .module-accordion-toggle{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/accordion.png);}
+.ux-pb-choose-module .module-blog{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/blog.png);}
+.ux-pb-choose-module .module-button{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/button.png);}
+.ux-pb-choose-module .module-carousel{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/carousel.png);}
+.ux-pb-choose-module .module-client{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/client.png);}
+.ux-pb-choose-module .module-contact-form{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/contact.png);}
+.ux-pb-choose-module .module-count-down{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/countdown.png);}
+.ux-pb-choose-module .module-divider{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/divider.png);}
+.ux-pb-choose-module .module-faq{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/faq.png);}
+.ux-pb-choose-module .module-gallery{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/gallery.png);}
+.ux-pb-choose-module .module-google-map{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/googlemap.png);}
+.ux-pb-choose-module .module-icon-box{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/iconbox.png);}
+.ux-pb-choose-module .module-image-box{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/imagebox.png);}
+.ux-pb-choose-module .module-jobs{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/jobs.png);}
+.ux-pb-choose-module .module-latest-post{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/rencentpost.png);}
+.ux-pb-choose-module .module-latest-tweets{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/latesttweets.png);}
+.ux-pb-choose-module .module-liquid-list{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/liquidlist.png);}
+.ux-pb-choose-module .module-message-box{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/messagebox.png);}
+.ux-pb-choose-module .module-portfolio{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/portfolio.png);}
+.ux-pb-choose-module .module-price{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/pricetable.png);}
+.ux-pb-choose-module .module-progress-bar{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/progressbar.png);}
+.ux-pb-choose-module .module-promote{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/promote.png);}
+.ux-pb-choose-module .module-share{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/share.png);}
+.ux-pb-choose-module .module-single-image{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/singleimage.png);}
+.ux-pb-choose-module .module-slider{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/slider.png);}
+.ux-pb-choose-module .module-tabs{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/tab.png);}
+.ux-pb-choose-module .module-team{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/team.png);}
+.ux-pb-choose-module .module-testimonials{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/testimonial.png);}
+.ux-pb-choose-module .module-text-block{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/text.png);}
+.ux-pb-choose-module .module-text-list{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/textlist.png);}
+.ux-pb-choose-module .module-video{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/modules/icons/video.png);}
+
+.ux-pb-module-field{margin-bottom:25px;}
+.ux-pb-module-field .text-muted{font-size:12px;}
+
+.ux-pb-divider{height:1px;line-height:1px;background:#999;border-bottom:1px solid #ddd;margin-bottom:25px;}
+
+.ux-pb-bg-color > li > button{width:28px;height:28px;position:relative;}
+.ux-pb-bg-color > li > button.btn-cancelcolor{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/cancelcolor.png);background-position:center center;background-repeat:no-repeat;}
+.ux-pb-bg-color > li > button > .glyphicon{position:absolute;right:0px;bottom:0px;top:auto;display:none;}
+.ux-pb-bg-color > li.active > button > .glyphicon{display:block;}
+
+.ux-pb-switch-color{position:relative;}
+.ux-pb-remove-color{display:block;position:absolute;right:15px;top:0px;width:34px;height:34px;background:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/remove.png) no-repeat center center;cursor:pointer;}
+
+.ux-pb-tabs{margin-bottom:10px;}
+
+.ux-pb-checkbox-group{line-height:22px;}
+.ux-pb-checkbox-group > li{margin-right:15px;}
+.ux-pb-checkbox-group .icheckbox_square-blue{float:left;margin-right:5px;}
+
+.ux-pb-module-items-template{display:none;}
+.ux-pb-module-items{margin-top:10px;}
+.ux-pb-module-items .field-group{display:none;}
+
+.ux-pb-module-items-price-template{display:none;}
+.ux-pb-module-items-price .row{margin-top:10px;}
+
+.ux-pb-module-icons i{cursor:pointer;font-size:16px;width:20px;line-height:20px;height:20px;background-image:none; text-decoration:none; }
+.ux-pb-module-icons [class^="icon-"]:before, [class*=" icon-"]:before{margin:0em;}
+.ux-pb-module-icons .module-icon{ text-align: center; border:1px dashed #ccc;padding:5px 4px 1px 4px;color:#333;margin-bottom:0.2em;display:inline-block;text-decoration:none;float:left;margin-right:0.2em;}
+.ux-pb-module-icons .module-icon:hover,
+.ux-pb-module-icons .module-icon:focus,
+.ux-pb-module-icons .module-icon:active{border:1px dashed #333;color:#fff;background:#333;text-decoration:none;}
+.ux-pb-module-icons .module-icon.current{background:#F60;color:#fff;}
+.ux-pb-module-icons .ux-pb-module-icons-uploaded img{width:48px;height:48px;}
+.ux-pb-module-icons .ux-pb-module-icons-uploaded .module-icon{margin:0 15px 15px 0;padding:2px;}
+
+.ux-pb-module-icons .ux-pb-module-icons-fontawesome,
+.ux-pb-module-icons .ux-pb-module-icons-uploaded{max-height:300px;overflow-y:scroll;}
+
+.ux-pb-icon-mask li a{position:relative;display:block;width:80px;height:80px;background-repeat:no-repeat;background-position:center center}
+.ux-pb-icon-mask li a .choosed{position:absolute;right:5px;bottom:5px;display:block;width:28px;height:28px;background:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/choosed.png) no-repeat;display:none;}
+.ux-pb-icon-mask li a.current .choosed{display:block;}
+
+.ux-pb-icon-mask .mask-circle{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/circle.png);}
+.ux-pb-icon-mask .mask-triangle{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/triangle.png);}
+.ux-pb-icon-mask .mask-square{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/square.png);}
+.ux-pb-icon-mask .mask-hexagonal{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/hexagon.png);}
+.ux-pb-icon-mask .mask-pentagon{background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/icon/pentagon.png);}
+
+.ux-pb-no-col.col-sm-2,
+.ux-pb-no-col.col-sm-3,
+.ux-pb-no-col.col-sm-4,
+.ux-pb-no-col.col-sm-5,
+.ux-pb-no-col.col-sm-6,
+.ux-pb-no-col.col-sm-12{padding-left:0;}
+
+.ux-pb-social-medias{margin-bottom:10px;}
+
+#ux-pb-map-canvas{width:100%;height:280px;margin:0px;padding:0px}
+
+.ux-pb-gallery-list .nav{position:relative;}
+.ux-pb-gallery-list .nav > li + li{margin-left:0;}
+.ux-pb-gallery-list .nav > li{margin-left:0;width:10.75%;position:relative;overflow:hidden;margin-bottom:2%;}
+.ux-pb-gallery-list .nav > li > .thumbnail{margin-bottom:0;padding:0px;overflow:hidden;position:absolute;height:100%;width:100%;}
+.ux-pb-gallery-list .nav > li > .thumbnail img{position:absolute;z-index:98;}
+.ux-pb-gallery-list .nav > li > .thumbnail .border{display:block;border:4px solid #fff;z-index:99;position:absolute;height:100%;width:100%;}
+.ux-pb-gallery-list .nav > li.active > .thumbnail{border:1px solid #428bca;}
+.ux-pb-gallery-list .pager{text-align:right;margin:5px 0;text-transform:uppercase;}
+.ux-pb-gallery-list .pagination{margin:5px 0;float:left;}
+.ux-pb-gallery-list .pagination li{margin-right:6px;}
+.ux-pb-gallery-list .pager-loading{float:right;margin:5px 0;margin-right:10px;display:none;}
+.ux-pb-gallery-list .pager-loading span{width:8px;height:8px;display:block;background-image:url(http://knitschmann.github.io/beyondRealism/wp-content/uploads/2018/05/wp-static-html-output-1-1526059142-knitschmann/wp-content/themes/aside/functions/pagebuilder/images/loading-2.gif);background-repeat:no-repeat; background-position:center center}
+
+.ux-pb-gallery-select{min-height:150px;border:3px dotted #ddd;margin-top:10px;}
+.ux-pb-gallery-select .nav > li + li{margin-left:0;}
+.ux-pb-gallery-select .nav > li{margin-left:0;position:relative;}
+.ux-pb-gallery-select .nav > li > .thumbnail{border:none;padding:0;margin:10px;width:102px;height:102px;border:1px solid #eee;}
+.ux-pb-gallery-select .nav > li > .thumbnail:hover{background:#fff;border:1px solid #ccc;}
+.ux-pb-gallery-select .nav > li > .thumbnail img{}
+.ux-pb-gallery-select .nav > li > .thumbnail .border{display:block;border:4px solid #fff;}
+.ux-pb-gallery-select .nav > li > .btn{position:absolute;right:8px;bottom:8px;z-index:101;}
+
+
+/*.ux-pb-choose-module{width:100%;height:100%;position:fixed;top:0px;left:0px;z-index:99;}
+.ux-pb-choose-module .nav{width:50%;height:50%;left:25%;right:25%;top:25%;bottom:25%;position:relative;} 
+.ux-pb-choose-module .nav > li{width:25%;margin:0;padding:0.5%;}
+.ux-pb-choose-module .nav > li + li{margin:0;}
+.ux-pb-choose-module .nav > li .btn{width:100%;text-align:left;background-color:#fff;}
+.ux-pb-choose-module-bg{width:100%;height:100%;background:#000;opacity:0.6;position:fixed;top:0px;left:0px;z-index:98;}
+
+.ux-pb-col-12{width:100%;}
+.ux-pb-col-9{width:75%;}
+.ux-pb-col-8{width:66.66666666666666666666666666666666666%;}
+.ux-pb-col-6{width:50%;} 49.97 
+.ux-pb-col-4{width:33.33333333333333333333333333333333333%;} 33.27 
+.ux-pb-col-3{width:25%;} 24.9 */
+
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+/*.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.3s;
+     -moz-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}*/
+
+/**** disabling Isotope CSS3 transitions ****/
+
+/*.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}*/
+
+/* End: Recommended Isotope styles */
+
+
+
+/* disable CSS transitions for containers with infinite scrolling*/
+/*.isotope.infinite-scrolling {
+  -webkit-transition: none;
+     -moz-transition: none;
+      -ms-transition: none;
+       -o-transition: none;
+          transition: none;
+}*/
+.ux-theme-box .wp-editor-wrap *,
+.ux-theme-box .wp-editor-wrap *:before,
+.ux-theme-box .wp-editor-wrap *:after,
+.ux-theme-box .wp-editor-wrap,
+.ux-theme-box .wp-editor-wrap:before,
+.ux-theme-box .wp-editor-wrap:after{
+	 -moz-box-sizing: content-box;
+}
+
+.ux-theme-box .wp-editor-wrap .wp-editor-area,
+.ux-theme-box .wp-editor-wrap .wp-editor-area:before,
+.ux-theme-box .wp-editor-wrap .wp-editor-area:after{
+	-moz-box-sizing: border-box;
+}
