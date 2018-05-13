@@ -1602,10 +1602,11 @@ img.placeholder-image {width: 100%;}
   opacity: 1;
 }
 .brxy-hover .project-picture img {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-  transition-duration: 3s;
+  -webkit-transform: scale(1.6);
+  -ms-transform: scale(1.6);
+  transform: scale(1.6);
+  transition-duration: 4s;
+  transition-timing-function: cubic-bezier(.02,.48,.06,.9);
 }
 .brxy-hover .brxy-expand-btn {
   opacity: 1;
