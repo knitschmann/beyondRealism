@@ -1,8 +1,3 @@
-/*
- * jQuery custom scripts.
- * Author & Copyright: VictorThemes
- * URL: http://themeforest.net/user/VictorThemes
- */
 jQuery(document).ready(function($) {
   "use strict";
   var vidId = $('#video_player').data('id');
